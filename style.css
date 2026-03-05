@@ -439,15 +439,16 @@ footer {
         var(--footer4)
     );
     padding: 10px 0px 10px 0px;
-    margin: 10px auto;
+    margin: 30px auto;
     border: 1.8px solid black;
     border-radius: 3px;
+    max-width: 750px;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
     flex-wrap: wrap;
+    gap: 20px;
 
     position: relative;
     overflow: visible;
@@ -470,6 +471,14 @@ footer img {
 
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
+
+    body{
+        background-size: cover;        /* cobre toda a tela */
+        background-position: center;   /* centraliza */
+        background-repeat: no-repeat;  /* não repete */
+        background-attachment: fixed;  /* deixa o fundo fixo */
+    }
+
 
     header {
         flex-direction: column;
