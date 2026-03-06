@@ -122,10 +122,10 @@ header h4 {
 /*PORTA DOS FUNDOS*/
 picture.porta > img {
     position: absolute;
-    bottom: -15px;
-    right: -30px;
+    bottom: 5px;
+    right: 10px;
 
-    width: 100px;
+    width: 62px;
 
     pointer-events: none;
     z-index: 10;
@@ -414,9 +414,9 @@ aside div.palavrarosa {
 }
 
 aside img {
-    width: 300px;
+    width: 310px;
     display: block;
-    margin: 15px auto 10px auto;
+    margin: 25px auto 8px auto;
     box-shadow: -7px 7px 7px rgba(0, 0, 0, 0.575);
 }
 
